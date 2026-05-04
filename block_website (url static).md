@@ -77,6 +77,13 @@ Since no FortiGuard license is used:
    - monkeytype.com
 3. Verify they are blocked
 
+<img width="1917" height="985" alt="{9D1C5670-EEB9-4F92-B710-62AE121F560D}" src="https://github.com/user-attachments/assets/d4e53c13-15d5-417d-9efa-87e3c51341cf" />
+<img width="1920" height="980" alt="{3D049E24-54A2-4E47-878E-E2B1FA39DC3D}" src="https://github.com/user-attachments/assets/01f5e77f-19df-410e-8d2c-d96185d48b4d" />
+<img width="1920" height="987" alt="{BC067EE9-C2A7-4B65-B311-E5887AD2E71D}" src="https://github.com/user-attachments/assets/822d7557-124b-467e-8ea0-43c7b07a1574" />
+
+additional website (NSFW):
+<img width="1920" height="986" alt="{68987CB6-0923-4CDD-9237-6637A1AA763C}" src="https://github.com/user-attachments/assets/fab78388-c297-48b5-9c80-d9326208324d" />
+
 ---
 
 ## ⚠️ Limitations
