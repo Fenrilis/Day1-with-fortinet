@@ -135,3 +135,8 @@ creating web filter:
 Security Profiles --> Web filter
 Name: block_site
 
+Switch Corebaba:
+conf t
+ip route 0.0.0.0 0.0.0.0 10.61.61.1
+end
+
