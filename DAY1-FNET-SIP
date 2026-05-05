@@ -519,6 +519,11 @@ config ospf-interface
  end
 end
 
+router OSPF-BGP combine:
+config router ospf
+set default-information-originate always 
+end
+
 ! SHOW COMMANDS ON FORTINET, SHOW ROUTING TABLE & SHOW NEIGHBORS
 SFC: show full-configuration
 GSIP: get system interface physical
