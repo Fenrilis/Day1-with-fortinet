@@ -1,0 +1,88 @@
+# SSL VPN Configuration Documentation
+
+## SSL VPN Settings
+
+Navigate to:
+
+`VPN → SSL-VPN Settings`
+
+### Configuration
+
+| Setting | Value |
+|---|---|
+| Listen on Interface | `INTERNET (wan1)` |
+| Listen on Port | `4433` |
+| Server Certificate | `fortinet-factory` (Built-in Certificate) |
+
+### Authentication / Portal Mapping
+
+1. Click **Create New**
+2. Configure the following:
+   - **User/Group:** `LOCAL/GUEST GROUP`
+   - **Portal:** `All Other Users/Groups`
+3. Click **Apply**
+
+![SSL VPN Settings](https://github.com/user-attachments/assets/02f42262-7890-4d91-9cb7-1f020dd27294)
+
+---
+
+# User & Authentication Configuration
+
+Navigate to:
+
+`User & Authentication → User Definition`
+
+1. Select the user: `Guest`
+2. Click **Edit**
+
+## User Configuration
+
+| Setting | Value |
+|---|---|
+| Username | `guest` |
+| Password | `C1sc0123` |
+| User Group | `Guest-Group` |
+
+![User Definition](https://github.com/user-attachments/assets/0b5ef7ec-b5ee-4761-b51d-e721e5e717ab)
+
+![Guest Group](https://github.com/user-attachments/assets/075b2898-3aff-466b-b987-01515b227cb4)
+
+---
+
+# FortiClient VPN Setup
+
+## Creating a New VPN Profile
+
+1. Open the **FortiClient VPN App**
+2. Click **New VPN**
+3. Select:
+   - **VPN Name**
+   - **SSL-VPN**
+4. Click **Create**
+
+## VPN Configuration Values
+
+| Setting | Value |
+|---|---|
+| Server | `200.0.0.61` |
+| Port | `4433` |
+| Username | `guest` |
+| Certificate | `Built-in` |
+| Single Sign-On (SSO) | `Disabled` |
+| Prompt User Credentials | `Enabled` |
+
+> **Note:**  
+> The default SSL-VPN port is `443`, but `4433` was used to avoid port conflicts/overlap.
+
+![FortiClient VPN Setup](https://github.com/user-attachments/assets/f8ffad4e-8de3-4c41-9c16-ddb59d13c3de)
+
+
+## Expected Output:
+
+<img width="380" height="842" alt="{EAB39904-CAE5-408C-AFCB-0CE2C06E9358}" src="https://github.com/user-attachments/assets/23001283-d892-4e0a-890d-076e401884c9" />
+
+
+
+
+
+---
