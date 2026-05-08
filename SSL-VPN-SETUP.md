@@ -48,6 +48,29 @@ Navigate to:
 ![Guest Group](https://github.com/user-attachments/assets/075b2898-3aff-466b-b987-01515b227cb4)
 
 ---
+# Create a firewall policy for WIFI_SSL_VPN:
+
+| Setting | Value |
+|---|---|
+| Name | WIFI_VPN_POLICY |
+| Incoming Interface | SSL-VPN tunnel interface (ssl.root) |
+| Outgoing Interface | LAN |
+| Source | VPN User Group |
+| Destination | Internal Subnet |
+| Schedule | always |
+| Service | ALL |
+| Action | ACCEPT |
+| NAT | OFF |
+
+<img width="1917" height="687" alt="{993B844A-46E8-499C-A551-6D6ED3F2BBFA}" src="https://github.com/user-attachments/assets/5413549c-f7f7-455d-a516-48d5e2ba99ca" />
+
+# Why NAT Should Be Disabled
+For internal LAN access, NAT should typically be disabled.
+
+# Reason
+Disabling NAT allows internal devices to see the actual VPN client IP address instead of the firewall WAN IP.
+
+---
 
 # FortiClient VPN Setup
 
