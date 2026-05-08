@@ -48,7 +48,7 @@ Navigate to:
 ![Guest Group](https://github.com/user-attachments/assets/075b2898-3aff-466b-b987-01515b227cb4)
 
 ---
-# Create a firewall policy for WIFI_SSL_VPN:
+# Create a firewall policy for WIFI_SSL_VPN_LAN:
 
 | Setting | Value |
 |---|---|
@@ -69,6 +69,23 @@ For internal LAN access, NAT should typically be disabled.
 
 # Reason
 Disabling NAT allows internal devices to see the actual VPN client IP address instead of the firewall WAN IP.
+
+---
+# Create a firewall policy for WIFI_SSL_VPN_WAN:
+
+| Setting | Value |
+|---|---|
+| Name | WIFI_VPN_SSL_WAN |
+| Incoming Interface | SSL-VPN tunnel interface (ssl.root) |
+| Outgoing Interface | INTERNET (wan1) |
+| Source | TEST GROUP |
+| Destination | all |
+| Schedule | always |
+| Service | ALL |
+| Action | ACCEPT |
+| NAT | ON |
+
+<img width="1920" height="924" alt="{9C32BC26-EE59-4E6B-AB9A-A3D5819ECDAA}" src="https://github.com/user-attachments/assets/500fc9aa-65c4-40a4-b2c1-b338d831e647" />
 
 ---
 
