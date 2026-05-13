@@ -137,6 +137,8 @@ Click:
 OK
 ```
 
+<img width="1199" height="910" alt="{24BA048E-003E-4924-900D-043856F5B3CC}" src="https://github.com/user-attachments/assets/5a7e9ebe-d9ae-48fb-96ea-3aeb49cff906" />
+
 ---
 
 # Verify LACP on FortiGate
