@@ -87,11 +87,19 @@ WARNING: THREE CABLES IS BETTER THAN ONE!
 @taas/BABA: (Line 88- 94 Paste on COREtaas & COREbaba)
 config t
 Int Range fa0/10-12
+no switchport
  channel-group 1 mode active
  channel-protocol Lacp
  do sh etherchannel summary
  end
 sh int po1 | inc BW
+
+!!Adding an ip address to the Po1 interface:
+conf t
+int Po1
+ip add 10.71.70.4 255.255.255.248
+no shut
+end
 
 !DHCP: DYNAMIC HOST CONFIGURATION PROTOCOL
 !@@@LEAF SWITCH (Line 98-124 Paste on COREbaba)
