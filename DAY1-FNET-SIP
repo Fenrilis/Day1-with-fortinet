@@ -97,7 +97,7 @@ sh int po1 | inc BW
 !!Adding an ip address to the Po1 interface:
 conf t
 int Po1
-ip add 10.71.70.4 255.255.255.248
+ip add 10.~~.70.4 255.255.255.248
 no shut
 end
 
