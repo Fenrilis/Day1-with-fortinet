@@ -62,7 +62,12 @@ Navigate to:
 | Action | ACCEPT |
 | NAT | OFF |
 
+1st option:
 <img width="1917" height="687" alt="{993B844A-46E8-499C-A551-6D6ED3F2BBFA}" src="https://github.com/user-attachments/assets/5413549c-f7f7-455d-a516-48d5e2ba99ca" />
+
+2nd option:
+<img width="1370" height="913" alt="{79E7C78E-C775-4F8F-BD66-5A4B05706B62}" src="https://github.com/user-attachments/assets/1cc6830f-a6a6-4b29-a479-fff56e2e2523" />
+
 
 # Why NAT Should Be Disabled
 For internal LAN access, NAT should typically be disabled.
