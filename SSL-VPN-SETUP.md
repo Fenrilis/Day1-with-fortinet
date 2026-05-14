@@ -62,12 +62,7 @@ Navigate to:
 | Action | ACCEPT |
 | NAT | OFF |
 
-1st option:
 <img width="1917" height="687" alt="{993B844A-46E8-499C-A551-6D6ED3F2BBFA}" src="https://github.com/user-attachments/assets/5413549c-f7f7-455d-a516-48d5e2ba99ca" />
-
-2nd option:
-<img width="1370" height="913" alt="{79E7C78E-C775-4F8F-BD66-5A4B05706B62}" src="https://github.com/user-attachments/assets/1cc6830f-a6a6-4b29-a479-fff56e2e2523" />
-
 
 # Why NAT Should Be Disabled
 For internal LAN access, NAT should typically be disabled.
@@ -90,7 +85,11 @@ Disabling NAT allows internal devices to see the actual VPN client IP address in
 | Action | ACCEPT |
 | NAT | ON |
 
+1st option:
 <img width="1920" height="924" alt="{9C32BC26-EE59-4E6B-AB9A-A3D5819ECDAA}" src="https://github.com/user-attachments/assets/500fc9aa-65c4-40a4-b2c1-b338d831e647" />
+
+2nd option:
+<img width="1370" height="913" alt="{79E7C78E-C775-4F8F-BD66-5A4B05706B62}" src="https://github.com/user-attachments/assets/1cc6830f-a6a6-4b29-a479-fff56e2e2523" />
 
 ---
 
